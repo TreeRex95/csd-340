@@ -1,1 +1,157 @@
+<!--
+Tristan Boetcher
+Module 12.3 Final
+7/21/22
+-->
+<!DOCtype html>
+<html lang = "en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <figure class="tristan">
+            <img src="images/Tristan.jpg" alt="Tristan" >
+            <figcaption>Tristan</figcaption>
+        </figure>
+        <div id="title"> CSD 340 Web Development with HTML and CSS <br> <br> All About Tristan Boetcher
+             </div>
+    </header>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Work History</a>
+    </nav>
+    <div class="container">
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-title">Traveling</div>
+                    <figure class="hobby"style='text-align:center;'>
+                        <img src="images/Ireland.jpg" alt="Ireland 2022">
+                        <figcaption>Ireland 2022</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        Traveling is something that I have always enjoyed since I was a little kid. That is all I want to do someday, 
+                        try and make it everywhere I possibly can. The world is a beautiful place and I want to see it all!
+                    </div>
+                </div>
 
+                <div class="card">
+                    <div class="card-title">Reading / Writing / Shows</div>
+                    <figure class="hobby"style='text-align:center;'>
+                        <img src="images/Book.jpeg" alt="Book Art">
+                        <figcaption>Book Art</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        When I have time, which is not very often, I really enjoy reading and writing. I also enjoy watching movies and tv shows. 
+                        It does not matter what genre it is, I enjoy almost anything when it comes to watching shows or reading. When I start reading a book, 
+                        or a comic it is hard for me to put them down. I also like to write fiction, though I have not for a while. Hoping to pick that back up soon.  
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Family</div>
+                    <figure class="hobby"style='text-align:center;'>
+                        <img src="images/Adorbs.jpeg" alt="Niece">
+                        <figcaption>Niece</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        My family is very important to me and we are all very close. My niece in particular, she is my everything and I love her more than
+                        anything in the world. I don't remember what life was like before she was born, I could not imagine life without her. Any spare moment
+                        I have goes to her.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="experience" id="experience">
+            <h1>Work History</h1>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-title">Property Management</div>
+                    <figure class="experience"style='text-align:center;'>
+                        <img src="images/Properties.jpg" alt="Properties">
+                        <figcaption>Properties</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        Getting into property management was not planned. I was going to school the first time around, I need something
+                        that was going to work with my schedule as I was a full time student trying to get two degrees. I found a part-time
+                        position that was close to my home. I got the job and eventually started working full-time. I managed many properties
+                        with a lot of different rules. My boss was amazing though so that helped things, but not something I would do again.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Network Technician</div>
+                    <figure class="experience"style='text-align:center;'>
+                        <img src="images/Servers.jpg" alt="Network Tech">
+                        <figcaption>Network Tech</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        After I graduated from college I was able to land a really amazing job as a Network Technician. I did not start looking for a job 
+                        right away after gradation but when I did thankfully it did not take long for me to find one. With my network and security school experience
+                        it made things a little easier on the job, though it was nothing like college. I did many things, and traveled to the different locations
+                        we had. We were county employees so I supported all kinds of different people and equipment. I learned so much from that job, including what 
+                        I really wanted to do in the computer field. That is why I went back to school for the degree I am seeking now, Software Development.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Vet Clinic Manager</div>
+                    <figure class="experience"style='text-align:center;'>
+                        <img src="images/Pups.png" alt="My dogs">
+                        <figcaption>My dogs</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        A job that I will forever love and miss was managing a Vet Clinic. It was a small family owned vet clinic and it was just so amazing. I have
+                        always loved animals and my family and I are pretty much crazy animal people, not just cats. I got this job through a connection that I had
+                        and it was the best thing I have ever done. The most rewarding too. The owner ended up retiring and selling the place that is why I had to move 
+                        on with that chapter of my life. Since it was a small vet clinic, I got to do a little bit of everything there. I loved it all. Someday I want
+                        to own my own boarding business. One day hopefully!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="card full-width">
+                <div class="card-title">
+                    Contact Form
+                </div>
+
+                <div class="card-content">
+
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id ="copyright">Copyright 2022-Tristan Boetcher</p>
+        <p id="link"><a href="https://github.com/TreeRex95/csd-340.git">Back To GitHub</a></p>
+    </footer>
+</body>
+</html>
